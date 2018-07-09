@@ -8,12 +8,12 @@ end
 
 
 # code your input_to_index and move method here!
-def input_to_index(num)
-  num.to_i - 1
+def input_to_index(idx)
+  idx.to_i - 1
 end
 
 def move(board_arr, idx, player_char="X")
-  
+  board_arr[idx] = player_char
 end
 
 # board arry 
