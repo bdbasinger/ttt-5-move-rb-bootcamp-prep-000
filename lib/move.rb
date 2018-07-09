@@ -15,3 +15,7 @@ end
 def move(board_arr, idx, player_char="X")
   
 end
+
+# board arry 
+# index in the board array that the player would like to fill out 
+# player's character of "X", or "O"
