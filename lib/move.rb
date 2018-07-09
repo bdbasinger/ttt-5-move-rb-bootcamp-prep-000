@@ -14,6 +14,7 @@ end
 
 def move(board_arr, idx, player_char="X")
   board_arr[idx] = player_char
+  board_arr
 end
 
 # board arry 
