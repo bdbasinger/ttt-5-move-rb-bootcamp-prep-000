@@ -2,15 +2,15 @@
 
 require_relative '../lib/move.rb'
 
-
-
 # Code your CLI Here
 
 puts "Welcome to Tic Tac Toe!"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-display_board(board)
+display_board(board) 
+#Added this on my own to show the board 
+#Before asking the player where they want to move
 
 puts "Where would you like to go?"
 
